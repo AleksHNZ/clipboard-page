@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: center top;
+}
+
+/* Start of the styling */
+
+header {
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 90px auto 35px auto;
+    width: 8%;
+}
+.header-text {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.header-text h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: var(--dark-grayish-blue);
+}
+
+.header-text p {
+    color: var(--grayish-blue);
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 1.6;
+}
+
+.header-buttons {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header-buttons .ios {
+    margin-right: 8px;
+    background-color: var(--strong-cyan);
+    border-radius: 40px;
+    padding: 13px 34px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all .2s ease;
+}
+
+.header-buttons .ios:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    opacity: .8;
+}
+
+.header-buttons .mac {
+    background-color: var(--light-blue);
+    border-radius: 40px;
+    padding: 13px 34px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all .2s ease;
+}
+
+.header-buttons .mac:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    opacity: .8;
+}
+
+.header-text2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 140px;
+}
+
+.header-text2 h2 {
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 29px;
+}
+
+.header-text2 p {
+    color: var(--grayish-blue);
+    line-height: 1.6;
+    font-size: 17px;
+    margin-bottom: 90px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between
+    ;
+    margin-bottom: 40px;
+}
+
+main img {
+    width: 53%; /* Fits the given width of the image container */
+height: auto; /* Reduces deterioration because the height isn't forced */
+margin: 0 0 0 -100px; /* The minus cuts off(hides) parts of the image */
+}
+
+main h3 {
+    font-size: 22px;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+
+main p {
+    width: 63%;
+    color: var(--grayish-blue);
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.computer-text {
+    margin-top: 55px;
+    margin-left: 80px;
+}
+
+/* Sections */
+
+.section-first {
+    margin-top: 8rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.section-first h2 {
+    margin-bottom: 15px;
+    font-size: 29px;
+}
+
+.section-first p {
+    line-height: 1.6;
+    color: var(--grayish-blue);
+    margin-bottom: 70px;
+    font-size: 16px;
+}
+
+.devices {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.section-second {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.section-second h2 {
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+.section-second p {
+    color: var(--grayish-blue);
+    font-size: 17px;
+    margin-bottom: 4rem;
+}
+
+.tools {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.tools p {
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.tools img {
+    margin-bottom: 35px;
+}
+
+.tools h3 {
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: var(--dark-grayish-blue)
+}
+
+
+.first-tool p {
+    width: 80%;
+    padding-left: 22%;
+}
+
+.second-tool {
+    padding: 0 5rem 0 0;
+}
+
+.third-tool {
+    padding-right: 90px;
+
+}
+
+.companies {
+    margin: 8rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.companies img {
+    width: 11%;
+    height: 10%;
+
+}
+
+.clipboard {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+.clipboard h2 {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.clipboard p {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+.clipboard-buttons {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+
+.clipboard-buttons a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.clipboard-buttons .ios {
+    margin-right: 8px;
+    background-color: var(--strong-cyan);
+    border-radius: 40px;
+    padding: 13px 34px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all .3s ease;
+}
+
+
+.clipboard-buttons .ios:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    opacity: .8;
+}
+
+.clipboard-buttons .mac {
+    background-color: var(--light-blue);
+    border-radius: 40px;
+    padding: 13px 34px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all .3s ease;
+}
+
+
+.clipboard-buttons .mac:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    opacity: .8;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5F6F8;
+    padding: 4rem 0 3rem 0;
+    margin-top: 9rem;
+}
+
+footer .logo {
+    width: 5%;
+}
+
+.first-footer a,
+.second-footer a,
+.third-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.first-footer a {
+    transition: all .3s ease;
+}
+
+.first-footer a:hover {
+    color: var(--strong-cyan);
+}
+
+
+.second-footer a {
+    transition: all .3s ease;
+}
+
+.second-footer a:hover {
+    color: var(--strong-cyan);
+}
+
+
+.third-footer a {
+    transition: all .3s ease;
+}
+
+.third-footer a:hover {
+    color: var(--strong-cyan);
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer .p1 {
+    padding-bottom: 15px;
+}
+
+.footer-social ul {
+    display: flex;
+    margin-top: 12px;
+}
+
+.footer-social ul li {
+    list-style: none;
+}
+
+.footer-social li a {
+    text-decoration: none;
+    margin-right: 14px;
+    font-size: 22px;
+    color: var(--dark-grayish-blue);
+}
+
+.footer-social .facebook {
+    transition: all .3s ease;
+}
+
+.footer-social .facebook:hover {
+    color: var(--light-blue);
+}
+
+.footer-social .twitter {
+    transition: all .3s ease;
+}
+
+.footer-social .twitter:hover {
+    color: var(--strong-cyan);
+}
+
+.footer-social .instagram {
+    transition: all .3s ease;
+}
+
+.footer-social .instagram:hover {
+    color: red;
+}
+
+@media screen and (max-width: 830px) {
+    .header-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .header-buttons .ios {
+        margin-bottom: 20px;
+    }
+
+    .clipboard-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .clipboard-buttons .ios {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    header img {
+        width: 25%;
+    }
+
+    .header-text h1 {
+        font-size: 20px;
+    }
+
+    .header-text p {
+        font-size: 15px;
+    }
+
+    .header-buttons {
+        width: 52%;
+    }
+
+    .header-text2 h2 {
+        font-size: 21px;
+    }
+
+    .header-text2 p {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main img {
+        margin: 0 auto;
+    }
+
+    .computer-text {
+        text-align: center;
+        margin: 40px 20px;
+    }
+    .computer-text p {
+        width: 100%;
+    }
+
+    .section-first h2 {
+        font-size: 19px;
+    }
+
+    .section-first p {
+        font-size: 13px;
+    }
+
+    .section-second h2 {
+        font-size: 21px;
+    }
+
+    .section-second p {
+        font-size: 13px;
+    }
+
+    .tools {
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .second-tool {
+        padding: 0;
+    }
+
+    .third-tool {
+        padding: 0;
+    }
+
+    .companies {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .companies img {
+        width: 40%;
+        margin-bottom: 60px;
+    }
+
+    .clipboard h2 {
+        font-size: 20px;
+    }
+
+    .clipboard p {
+        font-size: 15px;
+    }
+
+    .clipboard-buttons {
+        width: 52%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    footer .logo {
+        width: 20%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .first-footer {
+        margin-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .first-footer .p1 {
+        padding-bottom: 30px;
+    }
+
+    .second-footer {
+        padding-bottom: 30px;
+    }
+
+    .second-footer .p1 {
+        padding-bottom: 30px;
+    }
+
+    .footer-social {
+        display: inline-block;
+        margin: 40px auto 20px 8rem;
+    }
+
+    .footer-social a {
+        padding-right: 30px;
+    }
+}
